@@ -1,4 +1,6 @@
 class RegisteredApplicationsController < ApplicationController
+  before_action :authenticate_user!
+
   def new
   	@registered_application = RegisteredApplication.new
   end
