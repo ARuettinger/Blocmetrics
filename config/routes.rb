@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :registered_applications
+  resources :events
 
   root to: "welcome#index"
 
