@@ -43,4 +43,6 @@ end
 
 gem 'bootstrap-sass'
 gem 'faker'
+gem 'chartkick'
+gem 'groupdate'
 
